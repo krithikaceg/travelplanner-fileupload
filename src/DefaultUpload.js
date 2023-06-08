@@ -8,13 +8,13 @@ export default class DefaultUpload extends React.Component {
 
         this.djsConfig = {
             addRemoveLinks: true,
-            acceptedFiles: "image/jpeg,image/png,image/gif"
+            acceptedFiles: "application/zip"
         };
 
         this.componentConfig = {
-            iconFiletypes: ['.jpg', '.png', '.gif'],
-            showFiletypeIcon: true,
-            postUrl: '/uploadHandler'
+            // iconFiletypes: ['.jpg', '.png', '.gif'],
+            // showFiletypeIcon: true,
+            postUrl: '/upload'
         };
 
         // If you want to attach multiple callbacks, simply
